@@ -1,0 +1,171 @@
+/* variável das cores */
+:root {
+    --cor-principal: #93b5a4;
+    --cor2: #F7AE3C;
+    --cor3: #DCC7A8;
+    --cor4: #443A6E;
+    --cor5: #000000;
+    --cor6: #ffffff;
+}
+
+/*corpo da página em geral*/
+body {
+    margin: 0 100px;
+    color: var(--cor6);
+    font-family: Arial, Helvetica, sans-serif;
+    width: 80%;
+}
+
+/*cabeçalho*/
+header {
+    text-align: center;
+    padding: 30px 0;
+    color: black;
+    background-color: var(--cor-principal);
+    border-radius: 0 0 20px 20px;
+    box-shadow: 0 1px 5px 0 var(--cor3);
+}
+
+
+
+/*links de navegação da cabeçalho*/
+nav a {
+    margin: 10px;
+    /*espaço entre os links*/
+    color: var(--cor5);
+    text-decoration: none;
+}
+
+/*efeito de quando o mouse passa por cima do cabeçalho*/
+nav a:hover {
+    text-decoration: underline;
+    color: var(--cor4)
+}
+
+
+/*isso é um teste
+.img:hover {width: 200px;}
+*/
+
+
+/*inicio section*/
+section {
+    color: var(--cor5);
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 5px solid var(--cor3);
+    margin: 20px 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-align: left;
+    box-shadow: 0 3px 8px 0 var(--cor-principal);
+    border-radius: 10px;
+
+}
+
+section a:hover {
+    text-decoration: underline;
+    color: var(--cor4)
+}
+
+section h2 {
+    text-align: center;
+}
+
+section figure {
+    text-align: center;
+}
+
+section figcaption {
+    text-align: center;
+}
+
+/*inicio do aside*/
+aside {
+    color: var(--cor5);
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 5px solid var(--cor3);
+    margin: 20px 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    text-align: left;
+    box-shadow: 0 3px 8px 0 var(--cor-principal);
+    border-radius: 10px;
+}
+
+aside h2 {
+    text-align: center;
+}
+
+/*inicio do address*/
+address {
+    color: var(--cor5);
+    padding: 20px;
+    margin-bottom: 15px;
+    border: 5px solid var(--cor3);
+    text-align: left;
+    margin: 20px 0;
+    padding-top: 10px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+    box-shadow: 0 3px 8px 0 var(--cor-principal);
+    border-radius: 10px;
+}
+
+address h3 {
+    text-align: center;
+}
+
+/*tabela*/
+table {
+    padding: 10px;
+    
+}
+
+th,
+td {
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+table thead {
+    text-align: center;
+}
+
+
+/*especifico pagina de contatos*/
+#pagcont h3 {
+    text-align: left;
+}
+
+/*especifico pagina inscrição*/
+.butao:hover {
+    background-color: var(--cor2);
+}
+
+
+/*.card {
+    display: inline-block;
+    padding: 20px;
+    border-top: 1px solid;
+
+}*/
+
+
+
+/*inicio rodape*/
+footer {
+    padding: 5px 0;
+    background-color: var(--cor-principal);
+    color: var(--cor5);
+    text-align: center;
+    border-radius: 20px 20px 0 0;
+}
